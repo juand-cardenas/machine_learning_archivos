@@ -1,0 +1,12 @@
+Configuración: Fuente - Amplif. B - Amplif. A - Carga
+VS 1 0 SIN 0 10M 1K
+RS 1 2 100K
+RI1 2 0 10K
+E1 3 0 2 0 10
+RO1 3 4 1K
+RI2 4 0 100K
+E2 5 0 4 0 100
+RO2 5 6 10K
+RL 6 0 100
+.TRAN 0.1U 5M 0 0.1U
+.END
